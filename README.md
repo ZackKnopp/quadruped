@@ -17,7 +17,7 @@ tar -xvzf drake.tar.gz -C .venv --strip-components=1
 python2 -m virtualenv -p python2 .venv --system-site-packages
 ```
 
-Then we run `export PIPENV_VENV_IN_PROJECT="enabled"` in order to mak
+Then we run `export PIPENV_VENV_IN_PROJECT="enabled"` in order to make our virtual environment sit inside our project folder.
 
 Then cd to the project directory and run:
 
