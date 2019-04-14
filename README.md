@@ -25,4 +25,8 @@ Then cd to the project directory and run:
 
 Make sure drake is there with `python -c 'import pydrake; print(pydrake.__file__)'`
 
+For linting we'll use pylint.
+
+For code formatting we'll use black. Which is python3 only library so we need to install python 3, install black with pip3 and then set "python.formatting.blackPath" to a pre-existing installation of Black." like [here](https://github.com/Microsoft/vscode-python/issues/3444)
+
 
